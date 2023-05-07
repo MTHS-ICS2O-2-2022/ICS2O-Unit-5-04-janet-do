@@ -2,7 +2,7 @@
 //
 // Created by: Janet Do
 // Created on: Sep 2020
-// This file checks the user's age to see what movies they can see
+// This file checks the user's age and the day of the week for admission
 package main
 
 import "fmt"
@@ -23,5 +23,3 @@ func main() {
 		fmt.Println("\nSorry, you can't get in")
 	}
 }
-
-
