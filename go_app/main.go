@@ -17,10 +17,10 @@ func main() {
 	fmt.Println("Please enter the day of the week:")
 	fmt.Scanln(&day)
 
-	if (day == "Tuesday" || day == "Thursday") && age >= 12 && age <= 21 {
-		fmt.Println("\nCongratulations! You are eligible for discounted pricing.")
+	if (day == "tuesday" || day == "thursday") && age >= 12 && age <= 21 {
+		fmt.Println("\nCongratulations! You can get in")
 	} else {
-		fmt.Println("\nSorry, you are not eligible for discounted pricing.")
+		fmt.Println("\nSorry, you can't get in")
 	}
 }
 
